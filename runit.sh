@@ -5,6 +5,15 @@ python TankThermalModel.py \
   --Tinit 7.0 \
   --edge-position isolated \
   --ghi-clip-mode clear --ghi-clip-factor 1.05 \
+  --output-dir AtLast_isolated \
+  --lat -22.980793 --lon -67.765256
+
+python TankThermalModel.py \
+  --start-date 2024-04-01 \
+  --end-date 2025-04-01 \
+  --Tinit 7.0 \
+  --edge-position isolated \
+  --ghi-clip-mode clear --ghi-clip-factor 1.05 \
   --output-dir Pathfinder_isolated \
 
 python TankThermalModel.py \

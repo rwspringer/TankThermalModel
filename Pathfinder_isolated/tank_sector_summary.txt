@@ -1,0 +1,105 @@
+Azimuthal-sector tank model summary
+Edge position: isolated
+================================================
+
+Run start (UTC): 2024-04-01T00:00:00+00:00
+Run end   (UTC): 2025-04-01T23:00:00+00:00
+Number of sectors: 8
+Water volume [m^3]: 87.072
+Initial thermal energy above 0 °C [MJ]: 2547.738
+Thermal energy at 0.1 °C [MJ]: 36.396
+Latent energy required to freeze all water [MJ]: 29082.176
+Total energy to cool from initial condition to fully frozen [MJ]: 31629.913
+
+Material-stack assumptions used in this run:
+  Membrane total thickness [mm]: 0.432
+  Membrane effective conductivity [W/m/K]: 0.220
+  Top membrane resistance [m²K/W]: 0.00196
+  Wall geotextile thickness [mm]: 2.500
+  Wall geotextile effective conductivity [W/m/K]: 0.120
+  Wall geotextile resistance [m²K/W]: 0.02083
+  Wall solid-side resistance (membrane + geotextile) [m²K/W]: 0.02280
+
+Representative no-ice conductance estimates:
+  Median wind speed used for estimate [m/s]: 2.690
+  Representative wall h [W/m²/K]: 7.939
+  Representative wall U (no wall ice) [W/m²/K]: 6.723
+  Representative wall UA (no wall ice) [W/K]: 450.3
+  Representative top water-side U (gap to water path, no surface ice) [W/m²/K]: 1.794
+  Representative top water-side UA (gap to water path, no surface ice) [W/K]: 38.1
+  Fraction of representative no-ice wall resistance from membrane+geotextile [-]: 0.153
+
+Radial shell-core transport model used in this run:
+  Shell thickness [m]: 0.180
+  Base radial exchange coefficient [W/m²/K]: 1.500
+  Buoyancy radial exchange coefficient factor [W/m²/K/√K]: 2.000
+  Max radial exchange coefficient [W/m²/K]: 10.000
+  Overturn radial damping factor [-]: 0.300
+
+Freeze-budget fractions based on cumulative cooling pathways:
+  Top pathway fraction   [-]: 0.0691
+  Wall pathway fraction  [-]: 0.9154
+  Bottom pathway fraction[-]: 0.0156
+
+Peak mean full-surface-equivalent ice thickness [m]: 0.0080
+Peak sector surface ice thickness [m]: 0.0095
+Peak average wall ice [m]: 0.0266
+Peak maximum wall ice [m]: 0.1017
+Minimum liquid-core radius [m]: 2.4983
+
+Sector 000°:
+  Peak surface ice [m]: 0.0058
+  Peak avg wall ice [m]: 0.0015
+  Mean solar factor [-]: 99.0643
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.4026
+
+Sector 045°:
+  Peak surface ice [m]: 0.0063
+  Peak avg wall ice [m]: 0.0004
+  Mean solar factor [-]: 97.0931
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.3074
+
+Sector 090°:
+  Peak surface ice [m]: 0.0095
+  Peak avg wall ice [m]: 0.0062
+  Mean solar factor [-]: 81.1257
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.3340
+
+Sector 135°:
+  Peak surface ice [m]: 0.0095
+  Peak avg wall ice [m]: 0.0351
+  Mean solar factor [-]: 51.1192
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.3454
+
+Sector 180°:
+  Peak surface ice [m]: 0.0095
+  Peak avg wall ice [m]: 0.0416
+  Mean solar factor [-]: 31.1291
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.4817
+
+Sector 225°:
+  Peak surface ice [m]: 0.0095
+  Peak avg wall ice [m]: 0.0885
+  Mean solar factor [-]: 58.9780
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.7683
+
+Sector 270°:
+  Peak surface ice [m]: 0.0095
+  Peak avg wall ice [m]: 0.0519
+  Mean solar factor [-]: 95.1580
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.8505
+
+Sector 315°:
+  Peak surface ice [m]: 0.0083
+  Peak avg wall ice [m]: 0.0249
+  Mean solar factor [-]: 109.0790
+  Mean direct-transmission factor [-]: 0.5013
+  Mean effective wind factor [-]: 0.6941
+

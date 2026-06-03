@@ -4,7 +4,9 @@ This repository contains a Python-based simulation tool that models the thermal 
 
 The core simulation engine is driven by TankThermalModel.py. To facilitate running simulations across various parameter sets and configurations, an execution script is provided via runit.sh.
 
-The simulation generates numerous analytical plots and animations visualizing the tank's thermal profile over time. Example Outputs
+The simulation generates numerous analytical plots and animations visualizing the tank's thermal profile over time. 
+
+# Example Outputs
 
 Pre-generated baseline simulations and example animations for specific site configurations are available in their respective directories:
 

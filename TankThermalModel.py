@@ -2417,8 +2417,8 @@ def write_summary(met: Meteo, out: Dict[str, np.ndarray], outdir: Path, T_init: 
     p = outdir / 'tank_sector_summary.txt'
     with p.open('w') as f:
         f.write('Azimuthal-sector tank model summary\n')
-        f.write('Latitude:{lat:.7f}\n')
-        f.write('Longitude:{lon:.7f}\n')
+        f.write(f'Latitude:{met.lat:.7f}\n')
+        f.write(f'Longitude:{met.lon:.7f}\n')
         f.write(f'Edge position: {out.get("edge_position", "south")}\n')
         f.write('================================================\n\n')
         f.write(f'Run start (UTC): {met.times[0].isoformat()}\n')

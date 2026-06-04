@@ -184,6 +184,8 @@ else:
 # ------------------------------- Data classes ------------------------------
 @dataclass
 class Meteo:
+    lat: float
+    lon: float
     times: List[datetime]
     tair: np.ndarray
     wind: np.ndarray
@@ -263,6 +265,10 @@ def load_meteo_cache(cache_path: Path | str, *, lat: float | None = None, lon: f
             times.append(t)
 
         return Meteo(
+            lat=np.asarray([lat], dtype=float),
+            lon=np.asarray([lon], dtype=float),
+            start_date=np.asarray([start_date], dtype=str),
+            end_date=np.asarray([end_date], dtype=str),
             times=times,
             tair=np.asarray(data['tair'], dtype=float),
             wind=np.asarray(data['wind'], dtype=float),
@@ -813,6 +819,8 @@ def load_openmeteo_archive(lat: float, lon: float, start_date: str, end_date: st
     snowfall_cm = np.asarray(hourly["snowfall"], dtype=float)
 
     met = Meteo(
+        lat=lat,
+        lon=lon,
         times=times,
         tair=np.asarray(hourly["temperature_2m"], dtype=float),
         wind=wind,

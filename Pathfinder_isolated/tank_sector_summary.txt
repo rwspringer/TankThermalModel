@@ -1,4 +1,6 @@
 Azimuthal-sector tank model summary
+Latitude:-22.9461480
+Longitude:-67.6777390
 Edge position: isolated
 ================================================
 
